@@ -5,6 +5,7 @@ u-coral-404-the-production-database-apology-5c1fc02a
 Writes the one-line apology an AI agent gives its human after
 accidentally deleting the production database, to /output/entry.txt.
 Deterministic: the same bytes on every run, no network, no randomness.
+Reviser touch: docstring only — the entry text is unchanged.
 """
 
 import os
